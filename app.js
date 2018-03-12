@@ -39,3 +39,5 @@ switch(new Date().getDay()){
 }
 
 console.log(`Today is ${day}`);
+
+
