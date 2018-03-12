@@ -39,6 +39,34 @@ for(let i = 0; i < cars.length; i++){
   console.log(cars[i]);
 }
 
+// For each
+
 cars.forEach(function(car){
   console.log(car);
 });
+
+// Map
+
+const users = [
+  {id: 1, name: 'Pav'},
+  {id: 2, name: 'John'},
+  {id: 3, name: 'Alex'}
+];
+
+const ids = users.map(function(user){
+  return user.id;
+});
+
+console.log(ids);
+
+// For in loop
+
+const user = {
+  firstName: 'Pav',
+  lastName: 'Klasa',
+  age: 35
+}
+
+for(let x in user){
+  console.log(`${x} : ${user[x]}`);
+}
