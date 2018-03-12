@@ -12,4 +12,3 @@ val = pawel.surname[1];
 document.body.innerHTML = val;
 
 console.log(val);
-
